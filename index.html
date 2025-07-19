@@ -50,7 +50,7 @@
     document.getElementById('appointmentForm').addEventListener('submit', function(e) {
       e.preventDefault();
       const formData = new FormData(this);
-      fetch('https://script.google.com/macros/s/AKfycbxhm2XCbGGanYnAE6tK1UPNNHDTgRDuTyV8kuzoOwRK0nKL6Dt0Foeqw_3DrypHuc1w/execL', {
+      fetch('https://script.google.com/macros/s/AKfycbxhm2XCbGGanYnAE6tK1UPNNHDTgRDuTyV8kuzoOwRK0nKL6Dt0Foeqw_3DrypHuc1w/exec', {
         method: 'POST',
         body: formData
       })
